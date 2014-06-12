@@ -1,7 +1,7 @@
-sqlite3.buildout
-================
+Wordpress.buildout
+==============
 
-Configuración de buildout para el compilar e instalar SQLite3
+Configuración de buildout para el servidor de aplicaciones Zope2
 
 Requerimientos
 ==============
@@ -24,22 +24,6 @@ Para la construcción del proyecto Buildout, ejecute el siguiente comando: ::
 
   ./bin/buildout
 
-Ejecutar SQLite3
-================
 
-Para ejecutar la base de datos SQLite3, ejecute el siguiente comando: ::
 
-  ./bin/sqlite3
-
-SQLite3 en Python
-=================
-
-Para manipular la base de datos SQLite3 en lenguaje programacion Python, ejecute el siguiente comando: ::
-
-  ./bin/ipy-sqlite
-  >>> from pysqlite2 import dbapi2 as sqlite3
-  >>> sqlite3.sqlite_version
-  '3.8.2'
-
-  
 
